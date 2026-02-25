@@ -1,0 +1,188 @@
+{
+	"name": "DelimitedTextEuroDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragePractice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "euro-daily-hist_1999_2022.csv",
+				"container": "entrada-datos"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Period\\Unit:",
+				"type": "String"
+			},
+			{
+				"name": "[Australian dollar ]",
+				"type": "String"
+			},
+			{
+				"name": "[Bulgarian lev ]",
+				"type": "String"
+			},
+			{
+				"name": "[Brazilian real ]",
+				"type": "String"
+			},
+			{
+				"name": "[Canadian dollar ]",
+				"type": "String"
+			},
+			{
+				"name": "[Swiss franc ]",
+				"type": "String"
+			},
+			{
+				"name": "[Chinese yuan renminbi ]",
+				"type": "String"
+			},
+			{
+				"name": "[Cypriot pound ]",
+				"type": "String"
+			},
+			{
+				"name": "[Czech koruna ]",
+				"type": "String"
+			},
+			{
+				"name": "[Danish krone ]",
+				"type": "String"
+			},
+			{
+				"name": "[Estonian kroon ]",
+				"type": "String"
+			},
+			{
+				"name": "[UK pound sterling ]",
+				"type": "String"
+			},
+			{
+				"name": "[Greek drachma ]",
+				"type": "String"
+			},
+			{
+				"name": "[Hong Kong dollar ]",
+				"type": "String"
+			},
+			{
+				"name": "[Croatian kuna ]",
+				"type": "String"
+			},
+			{
+				"name": "[Hungarian forint ]",
+				"type": "String"
+			},
+			{
+				"name": "[Indonesian rupiah ]",
+				"type": "String"
+			},
+			{
+				"name": "[Israeli shekel ]",
+				"type": "String"
+			},
+			{
+				"name": "[Indian rupee ]",
+				"type": "String"
+			},
+			{
+				"name": "[Iceland krona ]",
+				"type": "String"
+			},
+			{
+				"name": "[Japanese yen ]",
+				"type": "String"
+			},
+			{
+				"name": "[Korean won ]",
+				"type": "String"
+			},
+			{
+				"name": "[Lithuanian litas ]",
+				"type": "String"
+			},
+			{
+				"name": "[Latvian lats ]",
+				"type": "String"
+			},
+			{
+				"name": "[Maltese lira ]",
+				"type": "String"
+			},
+			{
+				"name": "[Mexican peso ]",
+				"type": "String"
+			},
+			{
+				"name": "[Malaysian ringgit ]",
+				"type": "String"
+			},
+			{
+				"name": "[Norwegian krone ]",
+				"type": "String"
+			},
+			{
+				"name": "[New Zealand dollar ]",
+				"type": "String"
+			},
+			{
+				"name": "[Philippine peso ]",
+				"type": "String"
+			},
+			{
+				"name": "[Polish zloty ]",
+				"type": "String"
+			},
+			{
+				"name": "[Romanian leu ]",
+				"type": "String"
+			},
+			{
+				"name": "[Russian rouble ]",
+				"type": "String"
+			},
+			{
+				"name": "[Swedish krona ]",
+				"type": "String"
+			},
+			{
+				"name": "[Singapore dollar ]",
+				"type": "String"
+			},
+			{
+				"name": "[Slovenian tolar ]",
+				"type": "String"
+			},
+			{
+				"name": "[Slovak koruna ]",
+				"type": "String"
+			},
+			{
+				"name": "[Thai baht ]",
+				"type": "String"
+			},
+			{
+				"name": "[Turkish lira ]",
+				"type": "String"
+			},
+			{
+				"name": "[US dollar ]",
+				"type": "String"
+			},
+			{
+				"name": "[South African rand ]",
+				"type": "String"
+			}
+		]
+	}
+}
