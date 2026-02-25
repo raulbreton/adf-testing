@@ -1,0 +1,263 @@
+{
+	"name": "SnowflakeTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "EXCHANGE_DATE",
+				"type": "DATE",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "AUSTRALIAN_DOLLAR",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BULGARIAN_LEV",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "BRAZILIAN_REAL",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CANADIAN_DOLLAR",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SWISS_FRANC",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CHINESE_YUAN_RENMINBI",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CYPRIOT_POUND",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CZECH_KORUNA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "DANISH_KRONE",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ESTONIAN_KROON",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UK_POUND_STERLING",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "GREEK_DRACHMA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "HONG_KONG_DOLLAR",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CROATIAN_KUNA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "HUNGARIAN_FORINT",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "INDONESIAN_RUPIAH",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ISRAELI_SHEKEL",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "INDIAN_RUPEE",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ICELAND_KRONA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "JAPANESE_YEN",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "KOREAN_WON",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "LITHUANIAN_LITAS",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "LATVIAN_LATS",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "MALTESE_LIRA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "MEXICAN_PESO",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "MALAYSIAN_RINGGIT",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "NORWEGIAN_KRONE",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "NEW_ZEALAND_DOLLAR",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PHILIPPINE_PESO",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "POLISH_ZLOTY",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ROMANIAN_LEU",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "RUSSIAN_ROUBLE",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SWEDISH_KRONA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SINGAPORE_DOLLAR",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SLOVENIAN_TOLAR",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SLOVAK_KORUNA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "THAI_BAHT",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "TURKISH_LIRA",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "US_DOLLAR",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SOUTH_AFRICAN_RAND",
+				"type": "FLOAT",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "PUBLIC",
+			"table": "EURO_EXCHANGE_RATES"
+		}
+	}
+}
