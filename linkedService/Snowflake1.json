@@ -1,0 +1,21 @@
+{
+	"name": "Snowflake1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "practica-slalom",
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "CRTZWZX-CW11197",
+			"user": "REB187",
+			"database": "STAGING_DEV",
+			"warehouse": "COMPUTE_WH",
+			"role": "SYSADMIN",
+			"host": "YO78995.us-east-2.aws.snowflakecomputing.com",
+			"useUtcTimestamps": false,
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENGRjkyQTFGLTk5NDYtNDUwMS04RjMxLTFBNkYyQkE3NTI4Ml85YTEzN2QzZC1jNjI1LTRjZTItODY5MS1lZTQ4Mzg4NTNiNmUiDQp9"
+		},
+		"version": "1.1"
+	}
+}
