@@ -31,7 +31,7 @@
 						"importSettings": {
 							"type": "SnowflakeImportCopyCommand",
 							"additionalCopyOptions": {
-								"NULL_IF": "'-'"
+								"NULL_IF": "('-')"
 							}
 						}
 					},
