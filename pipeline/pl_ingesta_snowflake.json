@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy_Kaggle_to_Snowflake",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -56,8 +56,47 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Log_Error_to_Snowflake",
+				"type": "Script",
+				"dependsOn": [
+					{
+						"activity": "Copy_Kaggle_to_Snowflake",
+						"dependencyConditions": [
+							"Failed"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "Snowflake1",
+					"type": "LinkedServiceReference"
+				},
+				"typeProperties": {
+					"scripts": [
+						{
+							"type": "Query",
+							"text": "@{concat(\n\n    'INSERT INTO ERROR_LOG (PIPELINE_NAME, ERROR_MESSAGE, FILE_NAME) VALUES (',\n\n    '''', pipeline().Pipeline, ''', ',\n\n    '''', replace(activity('Copy_Kaggle_to_Snowflake').error.message, '''', ''''''), ''', ',\n\n    '''', pipeline().parameters.p_file_name, '''',\n\n    ');'\n\n)}"
+						}
+					],
+					"scriptBlockExecutionTimeout": "02:00:00",
+					"treatDecimalAsString": false
+				}
 			}
 		],
+		"parameters": {
+			"p_file_name": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
