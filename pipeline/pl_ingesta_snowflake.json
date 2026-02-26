@@ -30,7 +30,7 @@
 						"type": "SnowflakeV2Sink",
 						"importSettings": {
 							"type": "SnowflakeImportCopyCommand",
-							"additionalCopyOptions": {
+							"additionalFormatOptions": {
 								"NULL_IF": "('-')"
 							}
 						}
